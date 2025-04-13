@@ -12,9 +12,9 @@ using System;
 using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("MaverickBankReal")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d5097ffe775cea411b3f285b929e9a5c0a4a98c4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+34a8aa8e7e76d30ea383e48eefbbbf0908e7b516")]
 [assembly: System.Reflection.AssemblyProductAttribute("MaverickBankReal")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MaverickBankReal")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

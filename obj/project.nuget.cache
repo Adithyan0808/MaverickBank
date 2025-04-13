@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6LulsKDF0vg=",
+  "dgSpecHash": "JFkylBj6VjE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\radit\\Desktop\\SQL Server Management Studio and dot net\\MaverickBankReal\\MaverickBankReal.csproj",
+  "projectFilePath": "C:\\Users\\radit\\Downloads\\MaverickBankReal\\MaverickBankReal.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\radit\\.nuget\\packages\\aspnetcoreratelimit\\5.0.0\\aspnetcoreratelimit.5.0.0.nupkg.sha512",
     "C:\\Users\\radit\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",

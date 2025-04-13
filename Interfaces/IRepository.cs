@@ -1,11 +1,11 @@
 ﻿namespace MaverickBankReal.Interfaces
 {
-    public interface IRepository<T> where T : class
+    public interface IRepository<K, T> where T : class
     {
-        Task<T> GetByIdAsync(int id);
-        Task<IEnumerable<T>> GetAllAsync();
-        Task AddAsync(T entity);
-        Task UpdateAsync(T entity);
-        Task DeleteAsync(int id);
+        Task<IEnumerable<T>> GetAll();
+        Task<T> GetById(K key);
+        Task<T> Add(T entity);
+        Task<T> Update(K key, T entity);
+        Task<T> Delete(K key);
     }
 }

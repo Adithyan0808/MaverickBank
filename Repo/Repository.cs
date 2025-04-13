@@ -4,49 +4,43 @@ using Microsoft.EntityFrameworkCore;
 
 namespace MaverickBankReal.Repo
 {
-    public abstract class Repository<T> : IRepository<T> where T : class
+    public abstract class Repository<K, T> : IRepository<K, T> where T : class
     {
         protected readonly BankDbContext _context;
-
         public Repository(BankDbContext context)
         {
             _context = context;
         }
 
-        public virtual async Task<T> GetByIdAsync(int id)
-        {
-            return await _context.Set<T>().FindAsync(id);
-        }
+        public abstract Task<IEnumerable<T>> GetAll();
 
-        public virtual async Task<IEnumerable<T>> GetAllAsync()
+
+        public abstract Task<T> GetById(K id);
+
+
+        public async Task<T> Add(T entity)
         {
-            return await _context.Set<T>().ToListAsync();
-        }
-        public virtual async Task AddAsync(T entity)
-        {
-            await _context.Set<T>().AddAsync(entity);
+            _context.Add(entity);
             await _context.SaveChangesAsync();
+            return entity;
         }
 
-        public virtual async Task UpdateAsync(T entity)
+        public async Task<T> Delete(K id)
         {
-            _context.Set<T>().Update(entity);
+            var entity = await GetById(id);
+            _context.Remove(entity);
             await _context.SaveChangesAsync();
+            return entity;
+
         }
 
-        public virtual async Task DeleteAsync(int id)
+        public async Task<T> Update(K key, T entity)
         {
-            var entity = await _context.Set<T>().FindAsync(id);
-            if (entity != null)
-            {
-                _context.Set<T>().Remove(entity);
-                await _context.SaveChangesAsync();
-            }
+            var newEntity = await GetById(key);
+            _context.Update(newEntity).CurrentValues.SetValues(entity);
+            await _context.SaveChangesAsync();
+            return entity;
+
         }
-
-
-
-
-
     }
 }

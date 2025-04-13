@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\radit\\Desktop\\SQL Server Management Studio and dot net\\MaverickBankReal\\MaverickBankReal.csproj": {}
+    "C:\\Users\\radit\\Downloads\\MaverickBankReal\\MaverickBankReal.csproj": {}
   },
   "projects": {
-    "C:\\Users\\radit\\Desktop\\SQL Server Management Studio and dot net\\MaverickBankReal\\MaverickBankReal.csproj": {
+    "C:\\Users\\radit\\Downloads\\MaverickBankReal\\MaverickBankReal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\radit\\Desktop\\SQL Server Management Studio and dot net\\MaverickBankReal\\MaverickBankReal.csproj",
+        "projectUniqueName": "C:\\Users\\radit\\Downloads\\MaverickBankReal\\MaverickBankReal.csproj",
         "projectName": "MaverickBankReal",
-        "projectPath": "C:\\Users\\radit\\Desktop\\SQL Server Management Studio and dot net\\MaverickBankReal\\MaverickBankReal.csproj",
+        "projectPath": "C:\\Users\\radit\\Downloads\\MaverickBankReal\\MaverickBankReal.csproj",
         "packagesPath": "C:\\Users\\radit\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\radit\\Desktop\\SQL Server Management Studio and dot net\\MaverickBankReal\\obj\\",
+        "outputPath": "C:\\Users\\radit\\Downloads\\MaverickBankReal\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
