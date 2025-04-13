@@ -17,6 +17,11 @@ namespace MaverickBankReal.Context
         public DbSet<LoanTypeMaster>? LoanTypes { get; set; }
         public DbSet<LoanStatusMaster>? LoanStatuses { get; set; }
         public DbSet<TransactionTypeMaster>? TransactionTypes { get; set; }
+        public DbSet<BankEmployee> BankEmployees { get; set; }
+        public DbSet<Admin> Admins { get; set; }
+        public DbSet<User> Users { get; set; }
+        public DbSet<LoanStatusMaster> LoanStatusMasters { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             

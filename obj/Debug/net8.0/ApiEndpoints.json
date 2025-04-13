@@ -1,0 +1,650 @@
+[
+  {
+    "ContainingType": "MaverickBankReal.Controllers.AccountTypeMasterController",
+    "Method": "GetAllAccountTypes",
+    "RelativePath": "api/AccountTypeMaster",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MaverickBankReal.Controllers.AccountTypeMasterController",
+    "Method": "AddAccountType",
+    "RelativePath": "api/AccountTypeMaster",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "accountTypeDTO",
+        "Type": "MaverickBankReal.Models.DTOs.AccountTypeMasterDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MaverickBankReal.Controllers.AccountTypeMasterController",
+    "Method": "GetAccountTypeDetails",
+    "RelativePath": "api/AccountTypeMaster/{accountTypeId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "accountTypeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MaverickBankReal.Controllers.AccountTypeMasterController",
+    "Method": "UpdateAccountType",
+    "RelativePath": "api/AccountTypeMaster/{accountTypeId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "accountTypeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "accountTypeDTO",
+        "Type": "MaverickBankReal.Models.DTOs.AccountTypeMasterDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MaverickBankReal.Controllers.AccountTypeMasterController",
+    "Method": "DeleteAccountType",
+    "RelativePath": "api/AccountTypeMaster/{accountTypeId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "accountTypeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MaverickBankReal.Controllers.AdminsController",
+    "Method": "GetAdminDetails",
+    "RelativePath": "api/Admins/{adminId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "adminId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MaverickBankReal.Controllers.AdminsController",
+    "Method": "UpdateAdminDetails",
+    "RelativePath": "api/Admins/{adminId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "adminId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "adminDTO",
+        "Type": "MaverickBankReal.Models.DTOs.AdminDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MaverickBankReal.Controllers.AdminsController",
+    "Method": "GetAccounts",
+    "RelativePath": "api/Admins/accounts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MaverickBankReal.Controllers.AdminsController",
+    "Method": "GetLoans",
+    "RelativePath": "api/Admins/loans",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MaverickBankReal.Controllers.AdminsController",
+    "Method": "GetTransactions",
+    "RelativePath": "api/Admins/transactions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MaverickBankReal.Controllers.BranchesController",
+    "Method": "GetAllBranches",
+    "RelativePath": "api/Branches",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MaverickBankReal.Controllers.BranchesController",
+    "Method": "AddBranch",
+    "RelativePath": "api/Branches",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "branchDTO",
+        "Type": "MaverickBankReal.Models.DTOs.BranchDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MaverickBankReal.Controllers.BranchesController",
+    "Method": "GetBranchDetails",
+    "RelativePath": "api/Branches/{branchId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "branchId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MaverickBankReal.Controllers.BranchesController",
+    "Method": "UpdateBranch",
+    "RelativePath": "api/Branches/{branchId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "branchId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "branchDTO",
+        "Type": "MaverickBankReal.Models.DTOs.BranchDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MaverickBankReal.Controllers.BranchesController",
+    "Method": "DeleteBranch",
+    "RelativePath": "api/Branches/{branchId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "branchId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MaverickBankReal.Controllers.LoanTypeMasterController",
+    "Method": "GetAllLoanTypes",
+    "RelativePath": "api/controller",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MaverickBankReal.Controllers.LoanTypeMasterController",
+    "Method": "AddLoanType",
+    "RelativePath": "api/controller",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loanTypeDTO",
+        "Type": "MaverickBankReal.Models.DTOs.LoanTypeMasterDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MaverickBankReal.Controllers.LoanTypeMasterController",
+    "Method": "GetLoanTypeDetails",
+    "RelativePath": "api/controller/{loanTypeId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loanTypeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MaverickBankReal.Controllers.LoanTypeMasterController",
+    "Method": "UpdateLoanType",
+    "RelativePath": "api/controller/{loanTypeId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loanTypeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "loanTypeDTO",
+        "Type": "MaverickBankReal.Models.DTOs.LoanTypeMasterDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MaverickBankReal.Controllers.LoanTypeMasterController",
+    "Method": "DeleteLoanType",
+    "RelativePath": "api/controller/{loanTypeId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loanTypeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MaverickBankReal.Controllers.CustomerController",
+    "Method": "GetCustomerDetails",
+    "RelativePath": "api/Customer/{customerId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customerId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MaverickBankReal.Controllers.CustomerController",
+    "Method": "UpdateCustomerDetails",
+    "RelativePath": "api/Customer/{customerId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customerId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "customerDTO",
+        "Type": "MaverickBankReal.Models.DTOs.CustomerDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MaverickBankReal.Controllers.CustomerController",
+    "Method": "GetAccounts",
+    "RelativePath": "api/Customer/{customerId}/accounts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customerId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MaverickBankReal.Controllers.CustomerController",
+    "Method": "GetLoans",
+    "RelativePath": "api/Customer/{customerId}/loans",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customerId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MaverickBankReal.Controllers.CustomerController",
+    "Method": "GetTransactions",
+    "RelativePath": "api/Customer/{customerId}/transactions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customerId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MaverickBankReal.Controllers.CustomerController",
+    "Method": "ApplyForLoan",
+    "RelativePath": "api/Customer/apply-loan",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loanDTO",
+        "Type": "MaverickBankReal.Models.DTOs.LoanDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MaverickBankReal.Controllers.EmployeesController",
+    "Method": "GetEmployeeDetails",
+    "RelativePath": "api/Employees/{employeeId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "employeeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MaverickBankReal.Controllers.EmployeesController",
+    "Method": "UpdateEmployeeDetails",
+    "RelativePath": "api/Employees/{employeeId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "employeeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "employeeDTO",
+        "Type": "MaverickBankReal.Models.DTOs.EmployeeDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MaverickBankReal.Controllers.EmployeesController",
+    "Method": "GetAccounts",
+    "RelativePath": "api/Employees/{employeeId}/accounts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "employeeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MaverickBankReal.Controllers.EmployeesController",
+    "Method": "GetLoans",
+    "RelativePath": "api/Employees/{employeeId}/loans",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "employeeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MaverickBankReal.Controllers.EmployeesController",
+    "Method": "GetTransactions",
+    "RelativePath": "api/Employees/{employeeId}/transactions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "employeeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MaverickBankReal.Controllers.LoanStatusMasterController",
+    "Method": "GetAllLoanStatuses",
+    "RelativePath": "api/LoanStatusMaster",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MaverickBankReal.Controllers.LoanStatusMasterController",
+    "Method": "AddLoanStatus",
+    "RelativePath": "api/LoanStatusMaster",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loanStatusDTO",
+        "Type": "MaverickBankReal.Models.DTOs.LoanStatusMasterDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MaverickBankReal.Controllers.LoanStatusMasterController",
+    "Method": "GetLoanStatusDetails",
+    "RelativePath": "api/LoanStatusMaster/{loanStatusId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loanStatusId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MaverickBankReal.Controllers.LoanStatusMasterController",
+    "Method": "UpdateLoanStatus",
+    "RelativePath": "api/LoanStatusMaster/{loanStatusId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loanStatusId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "loanStatusDTO",
+        "Type": "MaverickBankReal.Models.DTOs.LoanStatusMasterDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MaverickBankReal.Controllers.LoanStatusMasterController",
+    "Method": "DeleteLoanStatus",
+    "RelativePath": "api/LoanStatusMaster/{loanStatusId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loanStatusId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MaverickBankReal.Controllers.TransactionTypeMasterController",
+    "Method": "GetAllTransactionTypes",
+    "RelativePath": "api/TransactionTypeMaster",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MaverickBankReal.Controllers.TransactionTypeMasterController",
+    "Method": "AddTransactionType",
+    "RelativePath": "api/TransactionTypeMaster",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "transactionTypeDTO",
+        "Type": "MaverickBankReal.Models.DTOs.TransactionTypeMasterDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MaverickBankReal.Controllers.TransactionTypeMasterController",
+    "Method": "GetTransactionTypeDetails",
+    "RelativePath": "api/TransactionTypeMaster/{transactionTypeId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "transactionTypeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MaverickBankReal.Controllers.TransactionTypeMasterController",
+    "Method": "UpdateTransactionType",
+    "RelativePath": "api/TransactionTypeMaster/{transactionTypeId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "transactionTypeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "transactionTypeDTO",
+        "Type": "MaverickBankReal.Models.DTOs.TransactionTypeMasterDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MaverickBankReal.Controllers.TransactionTypeMasterController",
+    "Method": "DeleteTransactionType",
+    "RelativePath": "api/TransactionTypeMaster/{transactionTypeId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "transactionTypeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

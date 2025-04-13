@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MaverickBankReal")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+34a8aa8e7e76d30ea383e48eefbbbf0908e7b516")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+335b3b01a805bae03b71232b288527e1f46871e9")]
 [assembly: System.Reflection.AssemblyProductAttribute("MaverickBankReal")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MaverickBankReal")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
